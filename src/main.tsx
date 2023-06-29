@@ -13,11 +13,13 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <Router>
     <React.StrictMode>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/property/:id" element={<Details />} />
-      </Routes>
-      <Footer />
+      <div className="max-w-[1440px] mx-auto">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/property/:id" element={<Details />} />
+        </Routes>
+        <Footer />
+      </div>
     </React.StrictMode>
   </Router>
 );
