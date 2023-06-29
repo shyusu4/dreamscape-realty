@@ -12,8 +12,8 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <Router>
     <React.StrictMode>
-      <Header />
-      <div className="max-w-[1440px] mx-auto">
+      <div className="max-w-[1400px] mx-auto">
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/property/:id" element={<Details />} />

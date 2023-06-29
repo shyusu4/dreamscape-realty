@@ -1,5 +1,11 @@
+import Herosection from '../components/Herosection';
+
 const Home = () => {
-  return <h1 className="text-3xl font-bold">Home</h1>;
+  return (
+    <>
+      <Herosection />
+    </>
+  );
 };
 
 export default Home;
